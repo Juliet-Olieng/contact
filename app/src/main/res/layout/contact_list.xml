@@ -7,34 +7,45 @@
 
     <TextView
         android:id="@+id/tvName"
-        android:layout_width="46dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="168dp"
         android:layout_marginTop="16dp"
         android:text="Mummy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tvEmail"
-        android:layout_width="145dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="149dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="4dp"
         android:text="mummy@mail.com"
-        app:layout_constraintStart_toEndOf="@+id/tvName"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
     <TextView
         android:id="@+id/tvNumber"
-        android:layout_width="118dp"
-        android:layout_height="19dp"
-        android:layout_marginStart="4dp"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="168dp"
         android:text="+254720485918"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tvEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="103dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:srcCompat="@drawable/avater" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
